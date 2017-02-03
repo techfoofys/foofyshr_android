@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/employee"
+            android:icon="@drawable/ic_action_forums"
+            android:checked="true"
+            android:title="Employee" />
+        <item
+            android:id="@+id/admin"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Admin" />
+        <item
+            android:id="@+id/projects"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Projects" />
+        <item
+            android:id="@+id/featured_projects"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Featured Projects" />
+    </group>
+</menu>

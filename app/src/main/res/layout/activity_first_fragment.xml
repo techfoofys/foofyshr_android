@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_first_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.praveen.drawerapp.FirstFragment">
+
+    <!--<android.support.design.widget.BottomNavigationView-->
+        <!--android:id="@+id/bottom_navigation"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/layout_height"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--app:itemBackground="@color/black"-->
+        <!--app:itemIconTint="@color/white"-->
+        <!--app:itemTextColor="@color/white"-->
+        <!--app:menu="@menu/bottom_navigation_main" />-->
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/viewpager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above="@+id/bottom_navigation"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="Employee Panel"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2" />
+    <!--<LinearLayout-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@color/black"-->
+            <!--android:onClick="EmployeeDetails"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:id="@+id/employees"-->
+            <!--android:text="Projects"/>-->
+
+        <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_height="match_parent"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:onClick="FeatureProjectDetails"-->
+            <!--android:id="@+id/projects"-->
+            <!--android:gravity="center"-->
+
+            <!--android:background="@color/black"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:text="Feature Projects"/>-->
+    <!--</LinearLayout>-->
+</RelativeLayout>
